@@ -90,11 +90,8 @@
         },
         {
           "lhs": "object",
-          "operator": "in",
-          "rhs": [
-            "letter",
-            "postcard"
-          ]
+          "operator": "==",
+          "rhs": "letter"
         }
       ],
       "yields": [
@@ -115,11 +112,8 @@
         },
         {
           "lhs": "object",
-          "operator": "in",
-          "rhs": [
-            "letter",
-            "postcard"
-          ]
+          "operator": "==",
+          "rhs": "letter"
         }
       ],
       "yields": [
@@ -140,7 +134,7 @@
         },
         {
           "lhs": "object",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -225,7 +219,7 @@
         },
         {
           "lhs": "size",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -253,7 +247,7 @@
         },
         {
           "lhs": "size",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -283,7 +277,7 @@
           "lhs": "sla",
           "operator": "==",
           "rhs": [
-            "1"
+            null
           ]
         }
       ],
@@ -304,7 +298,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -316,7 +310,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -348,7 +342,7 @@
         },
         {
           "lhs": "extra_service",
-          "operator": "!=",
+          "operator": "not_in",
           "rhs": [
             null
           ]
@@ -371,7 +365,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -399,11 +393,8 @@
         },
         {
           "lhs": "account_id",
-          "operator": "in",
-          "rhs": [
-            "f2d1252e7f3cec07584f",
-            "c58049e4ec6b78ca0e0d"
-          ]
+          "operator": "==",
+          "rhs": "f2d1252e7f3cec07584f"
         },
         {
           "lhs": "size",
@@ -497,8 +488,7 @@
             "e902be9b70e72ba62ad4",
             "f20470cfd1418ee7bd68",
             "1481e63a84bf36ecaa88",
-            "2bc783ebdd54e5fc39ef",
-            "12780cb4bb43d0d6f89a"
+            "2bc783ebdd54e5fc39ef"
           ]
         },
         {
@@ -532,7 +522,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -558,8 +548,7 @@
           "operator": "in",
           "rhs": [
             "49a9619299ba378265f9",
-            "1481e63a84bf36ecaa88",
-            "5dd7ff2582a87f046cd8"
+            "1481e63a84bf36ecaa88"
           ]
         }
       ],
@@ -575,7 +564,7 @@
       "expressions": [
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -658,7 +647,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -847,8 +836,7 @@
             "bg_3b7f350a05085b3be",
             "bg_596825bb74f33717b",
             "bg_89c634d092f0d668f",
-            "bg_48bfb56f12e445879",
-            "bg_ad1989d53342d79e5"
+            "bg_48bfb56f12e445879"
           ]
         }
       ],
@@ -879,7 +867,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -912,7 +900,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -957,7 +945,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -998,7 +986,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1031,7 +1019,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1097,7 +1085,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1125,7 +1113,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1153,7 +1141,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1186,7 +1174,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1219,7 +1207,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1247,7 +1235,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1275,7 +1263,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1308,7 +1296,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1340,7 +1328,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1372,7 +1360,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1421,7 +1409,7 @@
         },
         {
           "lhs": "to.address_country",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1461,7 +1449,7 @@
         },
         {
           "lhs": "to.address_country",
-          "operator": "!=",
+          "operator": "not_in",
           "rhs": [
             null
           ]
@@ -2273,14 +2261,14 @@
         },
         {
           "lhs": "mail_type",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
         },
         {
           "lhs": "to.address_country",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
