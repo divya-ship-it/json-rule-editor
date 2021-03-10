@@ -140,7 +140,7 @@
         },
         {
           "lhs": "object",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -225,7 +225,7 @@
         },
         {
           "lhs": "size",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -253,7 +253,7 @@
         },
         {
           "lhs": "size",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -282,9 +282,7 @@
         {
           "lhs": "sla",
           "operator": "==",
-          "rhs": [
-            "1"
-          ]
+          "rhs": 1
         }
       ],
       "yields": [
@@ -304,7 +302,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -312,11 +310,11 @@
         {
           "lhs": "sheets",
           "operator": "<=",
-          "rhs": "6"
+          "rhs": 6
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -348,7 +346,7 @@
         },
         {
           "lhs": "extra_service",
-          "operator": "!=",
+          "operator": "not_in",
           "rhs": [
             null
           ]
@@ -371,7 +369,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -532,7 +530,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -575,7 +573,7 @@
       "expressions": [
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -658,7 +656,7 @@
         },
         {
           "lhs": "account_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -879,7 +877,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -912,7 +910,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -957,7 +955,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -998,7 +996,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1031,7 +1029,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1097,7 +1095,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1125,7 +1123,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1153,7 +1151,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1186,7 +1184,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1219,7 +1217,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1247,7 +1245,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1275,7 +1273,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1308,7 +1306,7 @@
         },
         {
           "lhs": "billing_group_id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1340,7 +1338,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1372,7 +1370,7 @@
         },
         {
           "lhs": "custom_envelope.id",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1421,7 +1419,7 @@
         },
         {
           "lhs": "to.address_country",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
@@ -1461,7 +1459,7 @@
         },
         {
           "lhs": "to.address_country",
-          "operator": "!=",
+          "operator": "not_in",
           "rhs": [
             null
           ]
@@ -1576,7 +1574,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "21"
+          "rhs": 21
         },
         {
           "lhs": "custom_envelope.id",
@@ -1622,7 +1620,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "7"
+          "rhs": 7
         },
         {
           "lhs": "custom_envelope.id",
@@ -1677,7 +1675,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "7"
+          "rhs": 7
         },
         {
           "lhs": "custom_envelope.id",
@@ -1732,7 +1730,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "7"
+          "rhs": 7
         },
         {
           "lhs": "custom_envelope.id",
@@ -1787,7 +1785,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "7"
+          "rhs": 7
         },
         {
           "lhs": "custom_envelope.id",
@@ -1842,7 +1840,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "3"
+          "rhs": 3
         },
         {
           "lhs": "custom_envelope.id",
@@ -1893,7 +1891,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "3"
+          "rhs": 3
         },
         {
           "lhs": "custom_envelope.id",
@@ -1948,7 +1946,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "3"
+          "rhs": 3
         },
         {
           "lhs": "custom_envelope.id",
@@ -2003,7 +2001,7 @@
         {
           "lhs": "sheets",
           "operator": ">=",
-          "rhs": "3"
+          "rhs": 3
         },
         {
           "lhs": "custom_envelope.id",
@@ -2054,7 +2052,7 @@
         {
           "lhs": "sheets",
           "operator": "<=",
-          "rhs": "2"
+          "rhs": 2
         },
         {
           "lhs": "custom_envelope.id",
@@ -2109,7 +2107,7 @@
         {
           "lhs": "sheets",
           "operator": "<=",
-          "rhs": "2"
+          "rhs": 2
         },
         {
           "lhs": "custom_envelope.id",
@@ -2168,7 +2166,7 @@
         {
           "lhs": "sheets",
           "operator": "<=",
-          "rhs": "2"
+          "rhs": 2
         },
         {
           "lhs": "custom_envelope.id",
@@ -2219,7 +2217,7 @@
         {
           "lhs": "sheets",
           "operator": "<=",
-          "rhs": "2"
+          "rhs": 2
         },
         {
           "lhs": "custom_envelope.id",
@@ -2273,14 +2271,14 @@
         },
         {
           "lhs": "mail_type",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
         },
         {
           "lhs": "to.address_country",
-          "operator": "==",
+          "operator": "in",
           "rhs": [
             null
           ]
